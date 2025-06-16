@@ -1,0 +1,46 @@
+{
+  "dart.lineLength": 80,
+  "[dart]": {
+    "editor.codeActionsOnSave": {
+      "quickfix.insertSemicolon": "explicit",
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      79,
+      120
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "files.exclude": {
+    ".dart_tool": false,
+    ".mason": true,
+    ".netlify": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "l10n.yaml": false,
+    "mason-lock.json": true,
+    "mason.yaml": true,
+    "node_modules": true,
+    "**/*.g.dart": true,
+    "**/*.freezed.dart": true
+  },
+  "editor.formatOnSave": true,
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "cSpell.words": [
+    "dotenv",
+    "fenix",
+    "minio",
+    "Newsfeed"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/3.29.2"
+}
