@@ -15,7 +15,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -42,6 +42,38 @@
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+    }
+
+    /* Tắt spell check và dấu gạch chân cho tất cả input và textarea */
+    input,
+    textarea,
+    [contenteditable] {
+      -webkit-spellcheck: false !important;
+      -moz-spellcheck: false !important;
+      spellcheck: false !important;
+      text-decoration: none !important;
+      -webkit-text-decoration-line: none !important;
+      text-decoration-line: none !important;
+    }
+
+    /* Loại bỏ dấu gạch chân spell check trong Flutter web */
+    flt-text-editing-host input,
+    flt-text-editing-host textarea {
+      -webkit-spellcheck: false !important;
+      -moz-spellcheck: false !important;
+      spellcheck: false !important;
+      text-decoration: none !important;
+      -webkit-text-decoration: none !important;
+      -webkit-text-decoration-line: none !important;
+      text-decoration-line: none !important;
+    }
+
+    /* Loại bỏ outline khi focus */
+    flt-text-editing-host input:focus,
+    flt-text-editing-host textarea:focus {
+      outline: none !important;
+      -webkit-text-decoration: none !important;
+      text-decoration: none !important;
     }
   </style>
 </head>
