@@ -117142,7 +117142,7 @@ return B.t},
 $S:11}
 A.Ek.prototype={
 J(a){var s=null
-return A.a1("XIN STAR",s,s,s,s,$.bf_().aFZ(B.F,this.c,B.qq),s,s)}}
+return A.a1("XIN CHAT",s,s,s,s,$.bf_().aFZ(B.F,this.c,B.qq),s,s)}}
 A.RV.prototype={
 J(a){var s,r,q,p=null
 if(this.c.c===B.PX)return B.D
